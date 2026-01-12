@@ -8,7 +8,7 @@ library(lubridate)
 library(janitor)
 library(ggplot2)
 
-churn_data <- read.csv("D:/Course/Data Analysis/Case Study/Customer Churn Dataset/db/customer_churn_dataset-training-master.csv")
+churn_data <- read.csv("file path")
 
 View(churn_data)
 str(churn_data)
@@ -169,5 +169,6 @@ ggplot(churn_data, aes(x = factor(Churn), y = Payment.Delay)) +
     x = "Customer Status",
     y = "Payment Delay (Days)"
   )
+
 
 
