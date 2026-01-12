@@ -95,5 +95,3 @@ All insights are supported by visualizations embedded in the Kaggle notebook, in
 - Usage frequency comparisons
 
 ---
-
-## 📁 Repository Structure
